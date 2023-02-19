@@ -1,0 +1,114 @@
+body{
+    background: url(imagenes/hacker.jpg);
+    background-size: 100%;
+    font-family: 'Labrada', sans-serif;
+}
+
+.logo{
+    width: 5%;
+    margin: 0 0 0 16px;
+    padding-top: 11px;
+}
+
+main{
+    display: flex;
+    margin-left: 380px;
+    /*margin-right: 300px;*/
+    margin-top: 5px;
+}
+
+.text-area{
+    background: #000000;
+    color: #40DC35;
+    height: 350px;
+    margin-top: 15px;
+    padding: 7px;
+    border: none;
+    text-transform: lowercase;
+    border-radius: 22px;
+}
+
+::placeholder{
+    color:#40DC35;
+}
+ .text-area:focus{
+    outline: none;
+ }
+
+.mensaje{
+    background: #000000;
+    color: #40DC35;
+    height: 350px;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 22px;
+    margin-left: 75px;
+    margin-top: 15px;
+    padding: 7px;
+    /*padding-left: 20px;*/
+    /*position: fixed;*/
+}
+
+.botones{
+    display: flex;
+    margin-top: 10px;
+}
+
+.btnEncriptar{
+    background: #D8DFE8;
+    border: 1px solid #40DC35;
+    color: #12720B;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 130px;
+}
+
+.btnDesencriptar{
+    background: #D8DFE8;
+    border:1px solid #40DC35;
+    color: #12720B;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 130px;
+    margin-left: 30px;
+}
+
+.copy{
+    background: #40DC35;
+    border: 1px solid #40DC35;
+    color: #000000;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 130px;
+    margin-top: 37px;
+    margin-left: 101px;
+    /*position: absolute;*/
+}
+
+.exclamacion{
+    display: inline-block;
+    object-fit: cover;
+}
+
+.info{
+    color: #000000;
+    font-size: 18px;
+    margin: 6px 0;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+footer{
+    background: url(imagenes/bg.jpg);
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+    color: #FFF;
+}
+

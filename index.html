@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:wght@300&display=swap" rel="stylesheet">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/frameTop.png" alt="Logo de encriptador Alura">
+    </header>
+    <main>
+            <section class="container">
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                    <img class="exclamacion" src="imagenes/Vector.png" alt="Signo de exclamación">
+                    <h6 class="info">Solo letras minúsculas, sin acento y sin espacios.</h6>
+                </div>
+                <div class="botones">
+                    <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="20" rows="10" readonly></textarea>
+                <div>
+                    <button class="copy" onclick="copia()">Copiar</button>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy 2023 Todos los derechos reservados por Joharie Enríquez Martínez | Oracle+AluraLatam.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
