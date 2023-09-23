@@ -1,5 +1,4 @@
 # Encriptador-Desenciptador
-Encriptador y desencriptador de texto, solución del primer challenge del programa ONE junto a AluraLatam.
 
 El desafio se basa en crear un sitio que sirva como un encriptador y desencriptador de sentencias de texto, donde tanto el encriptado como el desencriptado se maneja por medio 
 de botones y un espacio donde se mostrará el texto encriptado con la posibilidad de copiar el texto y volver a desencriptarlo, siempre y cuando se cumplan los mismos estándares
